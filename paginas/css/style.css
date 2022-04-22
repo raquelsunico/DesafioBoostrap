@@ -5,8 +5,9 @@ body{
     line-height: 1.2em;
     margin: 0;
 }
-/*estilo a las clases*/
-/*con el elemente position fixed, hacemos que la cabecera sea fija*/
+h1{
+    text-align: center;
+}
 .header{
     background: #333;
     color: white;
@@ -48,22 +49,40 @@ body{
     border-color: #B8B799;
 }
 
-p{
-    text-align: justify;
-    font-size: 16px;
+h3{
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
 }
 
-.col-6 div-der p{
-    text-align: justify;
-    font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
+#collapse navbar-collapse ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-*/
-/*pie de pagina*/
-.footer{
-    background: #f2f2f2;
-    padding: 0rem 0;
+#collapse navbar-collapse ul li{
+    display: inline-block;
+}
+p{
+    text-align: justify;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+.img_Centrada{
     text-align: center;
-    margin-top: 0rem;
+}
+.Pic_centrado {
+    text-align: justify;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+.carousel-item active{
+    margin-top: auto;
+    padding-top: 20px;
 }
