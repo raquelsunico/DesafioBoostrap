@@ -24,7 +24,6 @@ h1{
 }
 
 .container-fluid ul{
-    mdisplay: inline;
     list-style-type: none;
     margin: 0.5em auto;
     text-align:center;
@@ -85,4 +84,11 @@ p{
 .carousel-item active{
     margin-top: auto;
     padding-top: 20px;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 0rem 0;
+    text-align: center;
+    margin-top: 0rem;
 }
