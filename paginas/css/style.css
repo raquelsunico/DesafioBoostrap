@@ -44,7 +44,7 @@ h1{
 }
 
 .container-fluid ul li a:hover{
-    background-color: #B8B799;
+    background-color: #f2f2f2;
     border-color: #B8B799;
 }
 
@@ -88,7 +88,7 @@ p{
 
 .footer{
     background: #f2f2f2;
-    padding: 0rem 0;
+    padding: 4rem 0;
     text-align: center;
-    margin-top: 0rem;
+    margin-top: 2rem;
 }
