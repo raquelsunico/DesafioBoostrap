@@ -76,6 +76,11 @@ p{
 }
 
 @media (max-width:480px){
-    .container-fluid 
-   
+
+    .header{
+        position: static;
+    }
+    .container-fluid, .carrusel, .caja
+    
+    
 }

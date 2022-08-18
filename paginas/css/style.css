@@ -89,7 +89,7 @@ h3{
 }
 
 .parrafos{
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -99,10 +99,6 @@ h3{
     margin-right: 13rem;
 }
 
-.carrusel-inner{
-    width: ;
-
-}
 .carousel-item active{
     margin-top: auto;
     padding-top: 20px;
@@ -116,11 +112,12 @@ h3{
     font-size: 12px;
 }
 
-@media(max-width:480px){
-   .container-fluid{
-    .img_Centrada, .carousel-inner, .parrafos, .biografia
-   }
-   .footer{
-    .footer p;
-   } 
+@media (max-width:480px){
+
+    .header{
+        position: static;
+    }
+    .container-fluid, .carrusel, .caja
+    
+    
 }
