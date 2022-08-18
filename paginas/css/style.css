@@ -23,6 +23,15 @@ h1{
     align-items: center;
 }
 
+.biografia{
+    width: auto;
+    padding: 30px 10px 10px 20px;
+}
+
+.container-fluid{
+   width: auto;
+}
+
 .container-fluid ul{
     list-style-type: none;
     margin: 0.5em auto;
@@ -68,18 +77,31 @@ h3{
 #collapse navbar-collapse ul li{
     display: inline-block;
 }
-p{
+/*p{
     text-align: justify;
     margin-left: 13rem;
     margin-right: 13rem;
-}
+}*/
+
 .img_Centrada{
     text-align: center;
+    display: block;
 }
+
+.parrafos{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .Pic_centrado {
     text-align: justify;
     margin-left: 13rem;
     margin-right: 13rem;
+}
+
+.carrusel-inner{
+    width: ;
+
 }
 .carousel-item active{
     margin-top: auto;
@@ -88,7 +110,17 @@ p{
 
 .footer{
     background: #f2f2f2;
-    padding: 4rem 0;
+}
+.footer p{
     text-align: center;
-    margin-top: 2rem;
+    font-size: 12px;
+}
+
+@media(max-width:480px){
+   .container-fluid{
+    .img_Centrada, .carousel-inner, .parrafos, .biografia
+   }
+   .footer{
+    .footer p;
+   } 
 }

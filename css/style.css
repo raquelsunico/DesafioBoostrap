@@ -22,6 +22,11 @@ body{
     align-items: center;
 }
 
+.carrusel{
+    width: auto;
+    display: inline-block;
+}
+
 .container-fluid ul{
     list-style-type: none;
     margin: 0.5em auto;
@@ -63,4 +68,14 @@ p{
     padding: 4rem 0;
     text-align: center;
     margin-top: 6rem;
+}
+
+.footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width:480px){
+    .container-fluid 
+   
 }
